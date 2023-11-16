@@ -1,4 +1,4 @@
-const apiKey = "b0f1edf7cd200b13e803b382fa8c776d";
+const apiKey = process.env.API_KEY;
 const searchInput = document.querySelector("#locationInput");
 const getWeatherBtn = document.querySelector("#getWeatherBtn");
 const cityName = document.querySelector(".city");
