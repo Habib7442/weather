@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkslategrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+.title{
+    color: aquamarine;
+    font-style: italic;
+}
+
+.input_container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 30px;
+}
+
+.home_card{
+    width: 20vw;
+    height: 60vh;
+    background-color: #0056b3;
+    background: url("https://images.unsplash.com/photo-1527482797697-8795b05a13fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdlYXRoZXJ8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=600&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    width: 50px; /* Adjust the size as needed */
+    height: 50px;
+    background-size: contain; /* Maintain icon proportions */
+    display: inline-block;
+}
+
+.day{
+    color: lightgray;
+}
+
+.city{
+    color: whitesmoke;
+    margin-top: 5px;
+}
+
+.condition{
+    color: wheat;
+    margin-top: 1rem;
+}
+
+.temp{
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.desc_card{
+    width: 30vw;
+    height: 60vh;
+    background-color: #0056b3;
+    background: url("https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYXRoZXJ8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=600&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+
+/* CSS for the table */
+table {
+    width: 100%;
+    max-width: 400px; 
+    margin-left: 10px; 
+    background: none;
+}
+
+th {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.clear-sky {
+    background-image: url('/assets/sun.png'); 
+}
+
+.clouds {
+    background-image: url('/assets/cloudy.png'); 
+}
+
+.rain {
+    background-image: url('/assets/rainy-day.png');
+}
+.storm {
+    background-image: url('/assets/storm.png');
+}
+
+.small_icon{
+    width: 30px;
+    height: 30px;
+}
+
+.desc_title{
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 0px 10px;
+}
+
+
